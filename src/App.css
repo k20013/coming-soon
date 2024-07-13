@@ -27,6 +27,40 @@
   font-size: 24px;
 }
 
+.btn {
+  width: fit-content;
+  margin: 0 auto;
+  padding: .5rem 1rem;
+  border: 2px #555 solid;
+  border-radius: 32px;
+  transition: all .2s ease-out;
+}
+
+.btn:hover {
+  background: #D9D9D9;
+  box-shadow: inset 32px 32px 64px #989898,
+              inset -32px -32px 64px #ffffff;
+  border: 2px #D9D9D9 solid;
+}
+
+.btn>a {
+  color: #090909;
+  font-size: 24px;
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.btn>a:hover {
+  color: black;
+}
+
+.btn>a>svg {
+  fill: black;
+  width: auto;
+  height: 50px;
+}
+
 /*__________________________________loader_____*/
 @keyframes clockwise {
   0% {
